@@ -10824,3 +10824,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.bg-header {
+  background-image: url("../assets/index.jpeg");
+  background-size: cover;
+}
+.about {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
