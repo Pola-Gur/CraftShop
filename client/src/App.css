@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-link.active {
+  font-weight: bold;
+  color: #007bff; /* Или любой другой цвет, который ты хочешь использовать */
+}
