@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+
+# Лог-файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Сборка React-приложения (если используешь create-react-app)
+client/build/
+
+# Конфигурационные файлы IDE (например, для VS Code)
+.vscode/
+
+# MacOS .DS_Store файлы
+.DS_Store
+
+# Другие файлы операционных систем, например, Windows Thumbs.db
+Thumbs.db

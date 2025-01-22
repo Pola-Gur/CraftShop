@@ -1,6 +1,7 @@
 // src/components/Navbar.js
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import { NavLink } from 'react-router-dom';
 
@@ -24,13 +25,11 @@ const Navbar = () => {
                             <NavLink className="nav-link" to="/contacts">Contacts</NavLink>
                         </li>
                     </ul>
-                    <form className="d-flex">
-                        <button className="btn btn-outline-dark" type="submit">
-                            <i className="bi-cart-fill me-1"></i>
-                            Cart
-                            <span className="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                        </button>
-                    </form>
+                    <NavLink className="btn btn-outline-dark d-flex align-items-center " to="/cart">
+                        <i className="bi-cart-fill me-1"></i>
+                           Cart
+                        <span className="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </NavLink>
                 </div>
             </div>
         </nav>
