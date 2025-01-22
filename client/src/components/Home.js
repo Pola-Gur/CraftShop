@@ -16,11 +16,12 @@ const Home = () => {
             </header>
 
             {/* Section */}
+            {/* className=paper className=crochetart className=jewelry on card for separating paper, crochet pictures or decorations */}
             <section className="py-5">
                 <div className="container px-4 px-lg-5 mt-5">
                     <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                         {/* Card 1 */}
-                        <div className="col mb-5">
+                        <div className="col mb-5 papers">
                             <div className="card h-100">
                                 <img className="card-img-top" src="/products_images/photo_2024-06-03_16-53-40 (2).jpg" alt="Based on your photo" />
                                 <div className="card-body p-4">
@@ -30,20 +31,20 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                    <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
                                 </div>
                             </div>
                         </div>
                         {/* Card 2 */}
-                        <div className="col mb-5">
+                        <div className="col mb-5 papers">
                             <div className="card h-100">
                                 <div className="badge bg-dark text-white position-absolute" style={{ top: '0.5rem', right: '0.5rem' }}>Sale</div>
                                 <img className="card-img-top" src="/products_images/photo_2024-06-03_16-53-40.jpg" alt="Birthday set" />
                                 <div className="card-body p-4">
                                     <div className="text-center">
                                         <h5 className="fw-bolder">Birthday set</h5>
-                                        <span className="text-muted text-decoration-line-through">$20.00</span>
-                                        <span>$18.00</span>
+                                        <span className="text-muted text-decoration-line-through">₪30.00</span>
+                                        <span>₪20.00</span>
                                     </div>
                                 </div>
                                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -52,15 +53,15 @@ const Home = () => {
                             </div>
                         </div>
                         {/* Card 3 */}
-                        <div className="col mb-5">
+                        <div className="col mb-5 papers">
                             <div className="card h-100">
                                 <div className="badge bg-dark text-white position-absolute" style={{ top: '0.5rem', right: '0.5rem' }}>Sale</div>
                                 <img className="card-img-top" src="/products_images/photo_2024-06-03_16-53-36.jpg" alt="Tel Aviv - Jaffa set" />
                                 <div className="card-body p-4">
                                     <div className="text-center">
                                         <h5 className="fw-bolder">Tel Aviv - Jaffa set</h5>
-                                        <span className="text-muted text-decoration-line-through">$50.00</span>
-                                        <span>$25.00</span>
+                                        <span className="text-muted text-decoration-line-through">₪60.00</span>
+                                        <span>₪40.00</span>
                                     </div>
                                 </div>
                                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -69,13 +70,13 @@ const Home = () => {
                             </div>
                         </div>
                         {/* Card 4 */}
-                        <div className="col mb-5">
+                        <div className="col mb-5 papers">
                             <div className="card h-100">
                                 <img className="card-img-top" src="/products_images/photo_2024-06-03_17-43-07.jpg" alt="Funny deer" />
                                 <div className="card-body p-4">
                                     <div className="text-center">
                                         <h5 className="fw-bolder">Funny deer</h5>
-                                        <span>$40.00</span>
+                                        <span>₪10.00</span>
                                     </div>
                                 </div>
                                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -84,15 +85,15 @@ const Home = () => {
                             </div>
                         </div>
                         {/* Card 5 */}
-                        <div className="col mb-5">
+                        <div className="col mb-5 papers">
                             <div className="card h-100">
                                 <div className="badge bg-dark text-white position-absolute" style={{ top: '0.5rem', right: '0.5rem' }}>Sale</div>
                                 <img className="card-img-top" src="/products_images/photo_2024-06-03_16-53-35.jpg" alt="Sarona-Azrieli" />
                                 <div className="card-body p-4">
                                     <div className="text-center">
                                         <h5 className="fw-bolder">Sarona-Azrieli</h5>
-                                        <span className="text-muted text-decoration-line-through">$50.00</span>
-                                        <span>$25.00</span>
+                                        <span className="text-muted text-decoration-line-through">₪30.00</span>
+                                        <span>₪25.00</span>
                                     </div>
                                 </div>
                                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -101,30 +102,29 @@ const Home = () => {
                             </div>
                         </div>
                         {/* Card 6 */}
-                        <div className="col mb-5">
+                        <div className="col mb-5 papers">
                             <div className="card h-100">
                                 <img className="card-img-top" src="/products_images/photo_2024-06-03_16-53-39.jpg" alt="Beagle set" />
                                 <div className="card-body p-4">
                                     <div className="text-center">
                                         <h5 className="fw-bolder">Beagle set</h5>
-                                        <span>$120.00 - $280.00</span>
+                                        <span>₪25</span>
                                     </div>
                                 </div>
                                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                    <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
                                 </div>
                             </div>
                         </div>
                         {/* Card 7 */}
-                        <div className="col mb-5">
+                        <div className="col mb-5 papers">
                             <div className="card h-100">
                                 <div className="badge bg-dark text-white position-absolute" style={{ top: '0.5rem', right: '0.5rem' }}>Sale</div>
                                 <img className="card-img-top" src="/products_images/photo_2024-06-03_17-42-30.jpg" alt="Happy Hanukkah" />
                                 <div className="card-body p-4">
                                     <div className="text-center">
                                         <h5 className="fw-bolder">Happy Hanukkah</h5>
-                                        <span className="text-muted text-decoration-line-through">$20.00</span>
-                                        <span>$18.00</span>
+                                        <span>₪10.00</span>
                                     </div>
                                 </div>
                                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -133,32 +133,32 @@ const Home = () => {
                             </div>
                         </div>
                         {/* Card 8 */}
-                        <div className="col mb-5">
+                        <div className="col mb-5 papers">
                             <div className="card h-100">
                                 <img className="card-img-top" src="/products_images/photo_2024-06-03_16-53-32.jpg" alt="Yom Ahava set" />
                                 <div className="card-body p-4">
                                     <div className="text-center">
                                         <h5 className="fw-bolder">Yom Ahava set</h5>
-                                        <span>$40.00</span>
+                                        <span>₪40.00</span>
                                     </div>
                                 </div>
                                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                    <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
                                 </div>
                             </div>
                         </div>
                         {/* Card 9 */}
-                        <div className="col mb-5">
+                        <div className="col mb-5 papers">
                             <div className="card h-100">
                                 <img className="card-img-top" src="products_images/photo_2024-06-03_16-53-38.jpg" alt="Random set" />
                                 <div className="card-body p-4">
                                     <div className="text-center">
                                         <h5 className="fw-bolder">Random set</h5>
-                                        <span>$40.00</span>
+                                        <span>₪20.00</span>
                                     </div>
                                 </div>
                                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                    <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
                                 </div>
                             </div>
                         </div>
